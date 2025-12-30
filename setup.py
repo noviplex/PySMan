@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name="PySMan",
@@ -6,7 +6,7 @@ setup(
     description="Lightweight Service Manager for Python projects",
     author="BusyChild77",
     author_email="noemail@noemail.com",
-    packages=find_packages(),
+    packages=["pysman"],
     python_requires=">=3.7",
     install_requires=[],
     extras_require={
