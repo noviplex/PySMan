@@ -14,6 +14,10 @@ classifiers = [
 license = "GPL-3.0-only"
 license-files = ["LICENSE*"]
 
+[tool.setuptools]
+packages = ["pysman"]
+package-dir = {"" = "src"}
+
 [project.urls]
 Homepage = "https://github.com/noviplex/PySMan"
 Issues = "https://github.com/noviplex/PySMan/issues"
