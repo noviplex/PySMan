@@ -1,0 +1,19 @@
+[project]
+name = "PySMan"
+version = "0.1.0"
+authors = [
+  { name="busychild77", email="noemail@noemail.com" },
+]
+description = "Lightweight Service Manager for Python projects"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "GNU General Public License v3 (GPLv3)"
+license-files = ["LICENSE*"]
+
+[project.urls]
+Homepage = "https://github.com/noviplex/PySMan"
+Issues = "https://github.com/noviplex/PySMan/issues"
