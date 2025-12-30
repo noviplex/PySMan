@@ -7,6 +7,7 @@ setup(
     author="BusyChild77",
     author_email="noemail@noemail.com",
     packages=["pysman"],
+    package_dir={"": "src"},
     python_requires=">=3.7",
     install_requires=[],
     extras_require={
