@@ -22,6 +22,9 @@ license-files = ["LICENSE*"]
 packages = ["pysman"]
 package-dir = {"" = "src"}
 
+[tool.setuptools.packages.find]
+where = ["src"]
+
 [project.urls]
 Homepage = "https://github.com/noviplex/PySMan"
 Issues = "https://github.com/noviplex/PySMan/issues"
