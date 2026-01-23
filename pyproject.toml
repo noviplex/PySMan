@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pysman"
-version = "0.1.0"
+version = "0.2.0"
 authors = [
   { name="busychild77", email="noemail@noemail.com" },
 ]

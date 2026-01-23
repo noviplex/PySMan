@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Run SortMyShit in Debug Mode",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/pysman/service_manager.py",
+            "console": "integratedTerminal",
+            "envFile": "${workspaceFolder}/.vscode/.env",
+        }
+    ]
+}
